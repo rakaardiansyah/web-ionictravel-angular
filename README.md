@@ -1,7 +1,13 @@
 # Web GoTravel by KTI
+
+![myimage-alt-tag](https://github.com/rakaardiansyah/web-gotravel/blob/main/image/1GoTravel-Home.png)
+![myimage-alt-tag](https://github.com/rakaardiansyah/web-gotravel/blob/main/image/2GoTravel-Sidebar.png)
+![myimage-alt-tag](https://github.com/rakaardiansyah/web-gotravel/blob/main/image/3GoTravel-DetailArtikel.png)
+
+
 NOTED : TODO: FIGMA FLOW ADJUSTMENT Modifications are made in line with the Figma project's flow. 
 
-https://www.figma.com/design/143ezx88CiS7SU52sSL1Fu/Web-GoTravel-by-KTI?node-id=3405-4240&t=FmMTfXBD6Amtu8KA-1
+https://www.figma.com/design/sqZjFzicg2GwRv3migxpcD/Web-GoTravel-by-KTI-(public-dummy)?node-id=3-18&t=GQGBnnUrzzNufcqE-1
 
 
 First, install this :
