@@ -8,7 +8,7 @@ web-ionictravel-angular
 
 NOTED : TODO: FIGMA FLOW ADJUSTMENT Modifications are made in line with the Figma project's flow. 
 
-[https://www.figma.com/design/.....](https://www.figma.com/design/sqZjFzicg2GwRv3migxpcD/Web-GoTravel-by-KTI-(public-dummy)?node-id=3-18&t=yTHLurzZWIUg1J2c-1)
+https://www.figma.com/design/sqZjFzicg2GwRv3migxpcD/Web-GoTravel-by-KTI-(public-dummy)?node-id=3-18&t=yTHLurzZWIUg1J2c-1
 
 
 First, install this :
