@@ -41,7 +41,7 @@ npm install swiper
 FIXME: NOTES ON CODE REPAIR >>
 TODO : 
 
-(+)
+(-) swiper ionic angular
 
 FIXME: 
 
