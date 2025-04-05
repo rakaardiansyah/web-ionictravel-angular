@@ -1,0 +1,67 @@
+/*
+  * ----------------------------------------------------------------------------
+ *  Template Name: WebTravel Wireframe
+    Template URI: https://github.com/rakaardiansyah
+    Description: WebTravel Theme using Ionic Angular Responsive
+    Author: RakaArdiansyah
+    Author URI: https://rakaardiansyah.my.id/
+ * ----------------------------------------------------------------------------
+ */
+
+/* Core CSS required for Ionic components to work properly */
+
+ion-menu {
+    // max-width: 600px;
+    max-width: inherit;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+.no-margin {
+  margin: 0 !important;
+}
+  
+.menu-content {
+  padding: 10px;
+  max-width: var(--max-width);
+  // margin: 0px 10px;
+  margin: 0 auto;
+  --background: #7c9742;
+
+  ion-list{
+    background-color: #7c9742;
+
+    ion-item {
+      color: #ffffff;
+      --background: #7c9742;
+    }
+    
+    ion-item:hover {
+      color: #ffffff;
+      --background: #7c9742;
+    }
+
+    ion-icon{
+      color: #ffffff;
+    }
+
+    ion-icon:hover{
+      color: #acbb8c;
+    }
+    
+    ion-label{
+      color: #ffffff;
+      font-size: 16px
+    }
+  
+    ion-label:hover {
+      color: #acbb8c;
+      font-size: 16px;
+    }
+
+  }
+  
+}
+  
+  

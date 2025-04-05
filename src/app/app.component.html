@@ -1,0 +1,52 @@
+<ion-menu side="end" contentId="main-content">
+  <ion-header>
+    <ion-toolbar color="success">
+      <ion-title>Menu</ion-title>
+      <ion-buttons slot="end">
+        <ion-button (click)="closeMenu()">
+          <ion-icon name="close"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="menu-content">
+    <ion-list>
+      <ion-item button routerLink="/company-profile">
+        <ion-icon name="business-outline" slot="start"></ion-icon>
+        <ion-label>Company Profile</ion-label>
+      </ion-item>
+      <ion-item button routerLink="/produk">
+        <ion-icon name="cube-outline" slot="start"></ion-icon>
+        <ion-label>Produk</ion-label>
+      </ion-item>
+      <ion-item button routerLink="/paket">
+        <ion-icon name="gift-outline" slot="start"></ion-icon>
+        <ion-label>Paket</ion-label>
+      </ion-item>
+      <ion-item button routerLink="/daftar-kemitraan">
+        <ion-icon name="people-outline" slot="start"></ion-icon>
+        <ion-label>Daftar Kemitraan</ion-label>
+      </ion-item>
+      <ion-item button routerLink="/jasa">
+        <ion-icon name="construct-outline" slot="start"></ion-icon>
+        <ion-label>Jasa</ion-label>
+      </ion-item>
+      <ion-item button routerLink="/news">
+        <ion-icon name="newspaper-outline" slot="start"></ion-icon>
+        <ion-label>News</ion-label>
+      </ion-item>
+      <ion-item button routerLink="/contact">
+        <ion-icon name="call-outline" slot="start"></ion-icon>
+        <ion-label>Contact Us</ion-label>
+      </ion-item>
+      <ion-item button routerLink="/faq">
+        <ion-icon name="help-circle-outline" slot="start"></ion-icon>
+        <ion-label>FAQ</ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<!-- Halaman utama -->
+<ion-router-outlet id="main-content"></ion-router-outlet>

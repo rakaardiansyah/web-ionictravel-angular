@@ -1,0 +1,748 @@
+<ion-content [fullscreen]="true" scrollEvents="true">
+  
+  <div class="container">
+
+    <!-- Banner Gambar -->
+    <div class="banner">
+      <ion-row>
+        <ion-col size="2" justify-content-start></ion-col>
+        <ion-col size="8" justify-content-center>
+          <ion-img src="assets/img_icon.png" alt="Umroh Image"></ion-img>
+        </ion-col>
+        <ion-col size="2" justify-content-end>
+          <ion-menu-button></ion-menu-button>
+          <!-- <ion-button (click)="toggleMenu()">
+            <ion-icon slot="icon-only" name="menu"></ion-icon>
+          </ion-button> -->
+        </ion-col>
+      </ion-row>
+    </div>
+
+    <div class="ion-content">
+
+      <div class="header">
+        <ion-img src="assets/header.png" alt="Umroh Image"></ion-img>
+      </div>
+
+      <div class="services-gotravel">
+        <ion-row>
+          <ion-col size="6">
+            <ion-card class="card-services">
+              <ion-row>
+                <ion-col size="3">
+                  <div class="bgimgservices">
+                    <img src="assets/icon_kategori.png" alt="icon-categori">
+                  </div>  
+                </ion-col>
+                <ion-col size="9">
+                  <div class="titleservices">
+                    <h6>Harga Terbaik</h6>
+                    <p>Memberikan Harga Terbaik dan Termurah</p>
+                  </div>
+                </ion-col>
+              </ion-row>
+            </ion-card>
+          </ion-col>  
+          <ion-col size="6">
+            <ion-card class="card-services">
+              <ion-row>
+                <ion-col size="3">
+                  <div class="bgimgservices">
+                    <img src="assets/icon_kategori.png" alt="icon-categori">
+                  </div>  
+                </ion-col>
+                <ion-col size="9">
+                  <div class="titleservices">
+                    <h6>Legalitas</h6>
+                    <p>Anggota IATA dan Terdaftar Depag</p>
+                  </div>
+                </ion-col>
+              </ion-row>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="6">
+            <ion-card class="card-services">
+              <ion-row>
+                <ion-col size="3">
+                  <div class="bgimgservices">
+                    <img src="assets/icon_kategori.png" alt="icon-categori">
+                  </div>  
+                </ion-col>
+                <ion-col size="9">
+                  <div class="titleservices">
+                    <h6>Pelayanan Terbaik</h6>
+                    <p>Pelayanan Cepat Ramah, dan Terpercaya</p>
+                  </div>
+                </ion-col>
+              </ion-row>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6">
+            <ion-card class="card-services">
+              <ion-row>
+                <ion-col size="3">
+                  <div class="bgimgservices">
+                    <img src="assets/icon_kategori.png" alt="icon-categori">
+                  </div>  
+                </ion-col>
+                <ion-col size="9">
+                  <div class="titleservices">
+                    <h6>Aman & Nyaman</h6>
+                    <p>Memberikan Keamanan  dalam Pejalanan Anda</p>
+                  </div>
+                </ion-col>
+              </ion-row>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </div>
+
+      <div class="kategori-gotravel">
+        <ion-row>
+            <ion-col size="3">
+                <ion-card class="bgiconkategori">
+                    <img src="assets/icon_kategori.png" alt="icon-categori">
+                </ion-card>
+                <ion-label>Haji</ion-label>
+            </ion-col>
+            <ion-col size="3">
+                <ion-card class="bgiconkategori">
+                  <img src="assets/icon_kategori.png" alt="icon-categori">
+                </ion-card>
+                <ion-label>Umrah</ion-label>
+            </ion-col>
+            <ion-col size="3">
+                <ion-card class="bgiconkategori">
+                  <img src="assets/icon_kategori.png" alt="icon-categori">
+                </ion-card>
+                <ion-label>Wisata</ion-label>
+            </ion-col>
+            <ion-col size="3">
+                <ion-card class="bgiconkategori">
+                  <img src="assets/icon_kategori.png" alt="icon-categori">
+                </ion-card>
+                <ion-label>Tarik Tunai</ion-label>
+            </ion-col>
+        </ion-row>
+
+    </div>
+
+      <div class="rekomendasi-terbaik">
+        <ion-row class="row-toptitle">
+            <ion-col size="6" class="ion-text-left">
+                <ion-label class="txtrekterbaik">REKOMENDASI TERBAIK</ion-label>
+            </ion-col>
+            <ion-col size="6" class="ion-text-right">
+                <ion-label class="txtlisemua">Lihat Semua</ion-label>
+            </ion-col>
+        </ion-row>
+
+        <ion-row class="ion-no-padding ion-no-margin">
+            <ion-col size="4" class="ion-no-padding ion-no-margin">
+                <ion-card class="cardRekomendasi" [routerLink]="['/','']">
+                    <ion-row class="bgrow1">
+                        <div class="imageRekomendasi">
+                            <img src="assets/img_berita2.png" />
+                        </div>
+                    </ion-row>
+
+                    <ion-row class="bgrow2">
+                        <ion-row class="bgseatrow2" style="margin: 2px 0px;">
+                            <div class="imgseat">
+                                <ion-icon color="primary" name="person"></ion-icon>
+                            </div>
+                            <ion-label class="sisaseat">
+                                <span>Tersedia <b>5</b> Seat</span>
+                            </ion-label>
+                        </ion-row>
+
+                        <ion-row class="bgdurasijenis">
+                            <ion-col size="6">
+                                <ion-label>Durasi 10 Hari</ion-label>
+                            </ion-col>
+                            <ion-col size="6" style="background-color: #FAEBD9;">
+                                <ion-label style="color: #5D8736;">WISATA RELIGI</ion-label>
+                            </ion-col>
+                        </ion-row>
+
+                        <ion-row>
+                            <ion-col size="2" class="ion-text-center">
+                                <div class="imagelogo">
+                                    <img src="assets/icon-travel.png" />
+                                </div>
+                            </ion-col>
+                            <ion-col size="10" class="ion-text-center">
+                                <div class="desctitle">
+                                    <ion-row>
+                                        <ion-label class="nametravel">
+                                            <b>UMMCA TREAVEL</b>
+                                        </ion-label>
+                                    </ion-row>
+                                </div>
+                            </ion-col>
+                            <ion-row style="padding: 3px 0px;">
+                                <ion-label class="startingloc">
+                                    Paket Bintang 5 <span>(Starting Jakarta)</span>
+                                </ion-label>
+                            </ion-row>
+                        </ion-row>
+                        <ion-row>
+                            <ion-label class="descrekomendasi">
+                                <span>[ 12-08-2024 ]</span> - Ziarah Khusus – Perjalanan ke situs-situs bersejarah Islam di Mekkah & Madinah
+                            </ion-label>
+                        </ion-row>
+                    </ion-row>
+                </ion-card>
+            </ion-col>
+            <ion-col size="4" class="ion-no-padding ion-no-margin">
+                <ion-card class="cardRekomendasi" [routerLink]="['/','']">
+                    <ion-row class="bgrow1">
+                        <div class="imageRekomendasi">
+                          <img src="assets/img_berita2.png" />
+                        </div>
+                    </ion-row>
+
+                    <ion-row class="bgrow2">
+                        <ion-row class="bgseatrow2">
+                            <div class="imgseat">
+                                <ion-icon color="primary" name="person"></ion-icon>
+                            </div>
+                            <ion-label class="sisaseat">
+                                <span>Tersedia <b>5</b> Seat</span>
+                            </ion-label>
+                        </ion-row>
+
+                        <ion-row class="bgdurasijenis">
+                            <ion-col size="6">
+                                <ion-label>Durasi 10 Hari</ion-label>
+                            </ion-col>
+                            <ion-col size="6" style="background-color: #FAEBD9;">
+                                <ion-label style="color: #5D8736;">WISATA RELIGI</ion-label>
+                            </ion-col>
+                        </ion-row>
+
+                        <ion-row>
+                            <ion-col size="1" class="ion-text-center">
+                                <div class="imagelogo">
+                                  <img src="assets/icon-travel.png" />
+                                </div>
+                            </ion-col>
+                            <ion-col size="11" class="ion-text-center">
+                                <div class="desctitle">
+                                    <ion-row>
+                                        <ion-label class="nametravel">
+                                            <b>UMMCA TREAVEL</b>
+                                        </ion-label>
+                                    </ion-row>
+                                </div>
+                            </ion-col>
+                            <ion-row style="padding: 3px 0px;">
+                                <ion-label class="startingloc">
+                                    Paket Bintang 5 <span>(Starting Jakarta)</span>
+                                </ion-label>
+                            </ion-row>
+                        </ion-row>
+                        <ion-row>
+                            <ion-label class="descrekomendasi">
+                                <span>[ 12-08-2024 ]</span> - Ziarah Khusus – Perjalanan ke situs-situs bersejarah Islam di Mekkah & Madinah
+                            </ion-label>
+                        </ion-row>
+                    </ion-row>
+                </ion-card>
+            </ion-col>
+            <ion-col size="4" class="ion-no-padding ion-no-margin">
+                <ion-card class="cardRekomendasi" [routerLink]="['/','']">
+                    <ion-row class="bgrow1">
+                        <div class="imageRekomendasi">
+                          <img src="assets/img_berita2.png" />
+                        </div>
+                    </ion-row>
+
+                    <ion-row class="bgrow2">
+                        <ion-row class="bgseatrow2">
+                            <div class="imgseat">
+                                <ion-icon color="primary" name="person"></ion-icon>
+                            </div>
+                            <ion-label class="sisaseat">
+                                <span>Tersedia <b>5</b> Seat</span>
+                            </ion-label>
+                        </ion-row>
+
+                        <ion-row class="bgdurasijenis">
+                            <ion-col size="6">
+                                <ion-label>Durasi 10 Hari</ion-label>
+                            </ion-col>
+                            <ion-col size="6" style="background-color: #FAEBD9;">
+                                <ion-label style="color: #5D8736;">WISATA RELIGI</ion-label>
+                            </ion-col>
+                        </ion-row>
+
+                        <ion-row>
+                            <ion-col size="1" class="ion-text-center">
+                                <div class="imagelogo">
+                                  <img src="assets/icon-travel.png" />
+                                </div>
+                            </ion-col>
+                            <ion-col size="11" class="ion-text-center">
+                                <div class="desctitle">
+                                    <ion-row>
+                                        <ion-label class="nametravel">
+                                            <b>UMMCA TREAVEL</b>
+                                        </ion-label>
+                                    </ion-row>
+                                </div>
+                            </ion-col>
+                            <ion-row style="padding: 3px 0px;">
+                                <ion-label class="startingloc">
+                                    Paket Bintang 5 <span>(Starting Jakarta)</span>
+                                </ion-label>
+                            </ion-row>
+                        </ion-row>
+                        <ion-row>
+                            <ion-label class="descrekomendasi">
+                                <span>[ 12-08-2024 ]</span> - Ziarah Khusus – Perjalanan ke situs-situs bersejarah Islam di Mekkah & Madinah
+                            </ion-label>
+                        </ion-row>
+                    </ion-row>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </div>
+
+    <div class="gallery-perjalanan">
+      <ion-row>
+          <ion-label class="txtgallery">GALLERY PERJALANAN</ion-label>
+      </ion-row>
+
+      <div class="tabs">
+          <button class="tab-button" [ngClass]="{'active': selectedTab === 'haji'}" (click)="selectTab('haji')">Haji</button>
+          <button class="tab-button" [ngClass]="{'active': selectedTab === 'umrah'}" (click)="selectTab('umrah')">Umrah</button>
+          <button class="tab-button" [ngClass]="{'active': selectedTab === 'wisata'}" (click)="selectTab('wisata')">Wisata</button>
+      </div>
+
+      <ion-row *ngIf="selectedTab === 'haji'" class="ion-no-padding ion-no-margin">
+          <ion-col size="4" *ngFor="let item of hajiItems" class="ion-no-padding ion-no-margin">
+              <ion-card class="cardGallery">
+                  <ion-row class="bgrow1">
+                      <div class="imgGallery">
+                          <img src="{{item.imghaji}}" />
+                      </div>
+                  </ion-row>
+
+                  <ion-row class="bgrow2">
+                      <ion-row class="ion-no-padding ion-no-margin">
+                          <div class="desctitle">
+                              <ion-label class="nametravel">
+                                  <b>{{item.titlehaji}}</b>
+                              </ion-label>
+                          </div>
+                      </ion-row>
+                      <ion-row>
+                          <ion-label class="descwisata">
+                              {{item.deschaji}}
+                          </ion-label>
+                      </ion-row>
+                  </ion-row>
+              </ion-card>
+          </ion-col>
+      </ion-row>
+
+      <ion-row *ngIf="selectedTab === 'umrah'" class="ion-no-padding ion-no-margin">
+          <ion-col size="4" *ngFor="let item of umrahItems" class="ion-no-padding ion-no-margin">
+              <ion-card class="cardGallery">
+                  <ion-row class="bgrow1">
+                      <div class="imgGallery">
+                          <img src="{{item.imgumrah}}" />
+                      </div>
+                  </ion-row>
+
+                  <ion-row class="bgrow2">
+                      <ion-row class="ion-no-padding ion-no-margin">
+                          <div class="desctitle">
+                              <ion-label class="nametravel">
+                                  <b>{{item.titleumrah}}</b>
+                              </ion-label>
+                          </div>
+                      </ion-row>
+                      <ion-row>
+                          <ion-label class="descwisata">
+                              {{item.descumrah}}
+                          </ion-label>
+                      </ion-row>
+                  </ion-row>
+              </ion-card>
+          </ion-col>
+      </ion-row>
+      
+      <ion-row *ngIf="selectedTab === 'wisata'" class="ion-no-padding ion-no-margin">
+          <ion-col size="4" *ngFor="let item of wisataItems"  class="ion-no-padding ion-no-margin">
+              <ion-card class="cardGallery">
+                  <ion-row class="bgrow1">
+                      <div class="imgGallery">
+                          <img src="{{item.imgwisata}}" />
+                      </div>
+                  </ion-row>
+
+                  <ion-row class="bgrow2">
+                      <ion-row class="ion-no-padding ion-no-margin">
+                          <div class="desctitle">
+                              <ion-label class="nametravel">
+                                  <b>{{item.titlewisata}}</b>
+                              </ion-label>
+                          </div>
+                      </ion-row>
+                      <ion-row>
+                          <ion-label class="descwisata">
+                          {{item.descwisata}}
+                          </ion-label>
+                      </ion-row>
+                  </ion-row>
+              </ion-card>
+          </ion-col>
+      </ion-row>    
+    </div>
+
+      <div class="berita-slider">
+        <ion-img src="assets/berita-slider.png" alt="berita slider"></ion-img>
+      </div>
+
+      <div class="viewallpaketumrah">
+        <ion-row class="top-titleumrah">
+            <ion-col size="6" class="ion-text-left">
+                <ion-label class="txtpaketumrah">PAKET UMRAH</ion-label>
+            </ion-col>
+            <ion-col size="6" class="ion-text-right">
+                <ion-label class="txtlisemua">Lihat Semua</ion-label>
+            </ion-col>
+        </ion-row>
+
+        <ion-row class="ion-no-padding ion-no-margin">
+            <ion-col size="4" class="ion-no-padding ion-no-margin">
+                <ion-card class="cardUmrah" [routerLink]="['/','']">
+                    <ion-row class="bgrow1">
+                        <div class="imageUmrah">
+                          <img src="assets/img_berita2.png" />
+                        </div>
+                    </ion-row>
+
+                    <ion-row class="bgrow2">
+                        <ion-row class="bgseatrow2">
+                            <div class="imgseatumrah">
+                                <ion-icon color="primary" name="person"></ion-icon>
+                            </div>
+                            <ion-label class="sisaseat">
+                                <span>Tersedia <b>5</b> Seat</span>
+                            </ion-label>
+                        </ion-row>
+
+                        <ion-row class="bgdurasijenis">
+                            <ion-col size="6">
+                                <ion-label>Durasi 10 Hari</ion-label>
+                            </ion-col>
+                            <ion-col size="6" style="background-color: #FAEBD9;">
+                                <ion-label style="color: #5D8736;">WISATA RELIGI</ion-label>
+                            </ion-col>
+                        </ion-row>
+
+                        <ion-row>
+                            <ion-col size="2" class="ion-text-center">
+                                <div class="imagelogo">
+                                    <img src="assets/icon-travel.png" />
+                                </div>
+                            </ion-col>
+                            <ion-col size="10" class="ion-text-center">
+                                <div class="desctitle">
+                                    <ion-row>
+                                        <ion-label class="nametravel">
+                                            <b>UMMCA TREAVEL</b>
+                                        </ion-label>
+                                    </ion-row>
+                                </div>
+                            </ion-col>
+                            <ion-row style="padding: 3px 0px;">
+                                <ion-label class="startingloc">
+                                    Paket Bintang 5 <span>(Starting Jakarta)</span>
+                                </ion-label>
+                            </ion-row>
+                        </ion-row>
+                        <ion-row>
+                            <ion-label class="descumrah">
+                                <span>[ 12-08-2024 ]</span> - Ziarah Khusus – Perjalanan ke situs-situs bersejarah Islam di Mekkah & Madinah
+                            </ion-label>
+                        </ion-row>
+                    </ion-row>
+                </ion-card>
+            </ion-col>
+            <ion-col size="4" class="ion-no-padding ion-no-margin">
+                <ion-card class="cardUmrah" [routerLink]="['/','']">
+                    <ion-row class="bgrow1">
+                        <div class="imageUmrah">
+                          <img src="assets/img_berita2.png" />
+                        </div>
+                    </ion-row>
+
+                    <ion-row class="bgrow2">
+                        <ion-row class="bgseatrow2">
+                            <div class="imgseatumrah">
+                                <ion-icon color="primary" name="person"></ion-icon>
+                            </div>
+                            <ion-label class="sisaseat">
+                                <span>Tersedia <b>5</b> Seat</span>
+                            </ion-label>
+                        </ion-row>
+
+                        <ion-row class="bgdurasijenis">
+                            <ion-col size="6">
+                                <ion-label>Durasi 10 Hari</ion-label>
+                            </ion-col>
+                            <ion-col size="6" style="background-color: #FAEBD9;">
+                                <ion-label style="color: #5D8736;">WISATA RELIGI</ion-label>
+                            </ion-col>
+                        </ion-row>
+
+                        <ion-row>
+                            <ion-col size="2" class="ion-text-center">
+                                <div class="imagelogo">
+                                    <img src="assets/icon-travel.png" />
+                                </div>
+                            </ion-col>
+                            <ion-col size="10" class="ion-text-center">
+                                <div class="desctitle">
+                                    <ion-row>
+                                        <ion-label class="nametravel">
+                                            <b>UMMCA TREAVEL</b>
+                                        </ion-label>
+                                    </ion-row>
+                                </div>
+                            </ion-col>
+                            <ion-row style="padding: 3px 0px;">
+                                <ion-label class="startingloc">
+                                    Paket Bintang 5 <span>(Starting Jakarta)</span>
+                                </ion-label>
+                            </ion-row>
+                        </ion-row>
+                        <ion-row>
+                            <ion-label class="descumrah">
+                                <span>[ 12-08-2024 ]</span> - Ziarah Khusus – Perjalanan ke situs-situs bersejarah Islam di Mekkah & Madinah
+                            </ion-label>
+                        </ion-row>
+                    </ion-row>
+                </ion-card>
+            </ion-col>
+            <ion-col size="4" class="ion-no-padding ion-no-margin"    >
+                <ion-card class="cardUmrah" [routerLink]="['/','']">
+                    <ion-row class="bgrow1">
+                        <div class="imageUmrah">
+                          <img src="assets/img_berita2.png" />
+                        </div>
+                    </ion-row>
+
+                    <ion-row class="bgrow2">
+                        <ion-row class="bgseatrow2">
+                            <div class="imgseatumrah">
+                                <ion-icon color="primary" name="person"></ion-icon>
+                            </div>
+                            <ion-label class="sisaseat">
+                                <span>Tersedia <b>5</b> Seat</span>
+                            </ion-label>
+                        </ion-row>
+
+                        <ion-row class="bgdurasijenis">
+                            <ion-col size="6">
+                                <ion-label>Durasi 10 Hari</ion-label>
+                            </ion-col>
+                            <ion-col size="6" style="background-color: #FAEBD9;">
+                                <ion-label style="color: #5D8736;">WISATA RELIGI</ion-label>
+                            </ion-col>
+                        </ion-row>
+
+                        <ion-row>
+                            <ion-col size="2" class="ion-text-center">
+                                <div class="imagelogo">
+                                    <img src="assets/icon-travel.png" />
+                                </div>
+                            </ion-col>
+                            <ion-col size="10" class="ion-text-center">
+                                <div class="desctitle">
+                                    <ion-row>
+                                        <ion-label class="nametravel">
+                                            <b>UMMCA TREAVEL</b>
+                                        </ion-label>
+                                    </ion-row>
+                                </div>
+                            </ion-col>
+                            <ion-row style="padding: 3px 0px;">
+                                <ion-label class="startingloc">
+                                    Paket Bintang 5 <span>(Starting Jakarta)</span>
+                                </ion-label>
+                            </ion-row>
+                        </ion-row>
+                        <ion-row>
+                            <ion-label class="descumrah">
+                                <span>[ 12-08-2024 ]</span> - Ziarah Khusus – Perjalanan ke situs-situs bersejarah Islam di Mekkah & Madinah
+                            </ion-label>
+                        </ion-row>
+                    </ion-row>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+      </div>
+
+      <div class="customer-review">
+        <ion-row>
+          <ion-label class="txtcusreview">Customer Reviews</ion-label>
+        </ion-row>
+
+        <ion-row class="content-customer">
+          <ion-col size="6" class="no-padding no-margin" style="padding: 0px; margin: 0px;">
+            <ion-card>
+              <ion-row class="no-padding no-margin">
+                <ion-col size="3" class="no-padding no-margin">
+                  <div class="bgimgcustomer">
+                    <img src="assets/icon_kategori.png" alt="card customer">
+                  </div>  
+                </ion-col>
+                <ion-col size="9" class="no-padding no-margin">
+                  <div class="bgdesccustomer">
+                    <ion-text class="namecustomer">Arie Untung</ion-text>
+                    <ion-text class="jobcustomer">Artis</ion-text>
+                  </div>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <div class="txtreview">
+                  Assalamualaikum warahmatullahi wabarakatuh. Nama saya Arie untung, saya baru saja 
+                  pulang dari umrah bersama gotravel. 
+                  <br><br>
+                  Sejak awal, saya sudah merasa puas dengan pelayanan gotravel. Mereka sangat 
+                  profesional dan ramah dalam mengurus semua keperluan saya, mulai dari pendaftaran, 
+                  pembayaran, visa, tiket, hotel, transportasi, hingga perlengkapan umrah. Mereka 
+                  juga memberikan informasi yang lengkap dan jelas tentang jadwal, rute, dan tips 
+                  umrah. Mereka juga selalu siap menjawab pertanyaan atau keluhan saya dengan cepat 
+                  dan solutif.
+                </div>
+              </ion-row>
+              <ion-row>
+                <ion-col size="6" class="ion-text-left">
+                  <div class="txttglreview">
+                    6 Januari 2022
+                  </div>
+                </ion-col>
+                <ion-col size="6" class="ion-text-right">
+                  <div class="reviewicon">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </ion-col>
+              </ion-row>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6" class="no-padding no-margin" style="padding: 0px; margin: 0px;">
+            <ion-card>
+              <ion-row class="no-padding no-margin">
+                <ion-col size="3" class="no-padding no-margin">
+                  <div class="bgimgcustomer">
+                    <img src="assets/icon_kategori.png" alt="card customer">
+                  </div>  
+                </ion-col>
+                <ion-col size="9" class="no-padding no-margin">
+                  <div class="bgdesccustomer">
+                    <ion-text class="namecustomer">Arie Untung</ion-text>
+                    <ion-text class="jobcustomer">Artis</ion-text>
+                  </div>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <div class="txtreview">
+                  Assalamualaikum warahmatullahi wabarakatuh. Nama saya Arie untung, saya baru saja 
+                  pulang dari umrah bersama gotravel. 
+                  <br><br>
+                  Sejak awal, saya sudah merasa puas dengan pelayanan gotravel. Mereka sangat 
+                  profesional dan ramah dalam mengurus semua keperluan saya, mulai dari pendaftaran, 
+                  pembayaran, visa, tiket, hotel, transportasi, hingga perlengkapan umrah. Mereka 
+                  juga memberikan informasi yang lengkap dan jelas tentang jadwal, rute, dan tips 
+                  umrah. Mereka juga selalu siap menjawab pertanyaan atau keluhan saya dengan cepat 
+                  dan solutif.
+                </div>
+              </ion-row>
+              <ion-row>
+                <ion-col size="6" class="ion-text-left">
+                  <div class="txttglreview">
+                    6 Januari 2022
+                  </div>
+                </ion-col>
+                <ion-col size="6" class="ion-text-right">
+                  <div class="reviewicon">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </ion-col>
+              </ion-row>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+
+      </div>
+
+    </div>
+    
+    <ion-footer>
+      <div class="footer-content">
+        <ion-grid>
+          <ion-row class="center">
+            <ion-col size="12">
+              <ion-label class="titlefooter">Follow Us</ion-label>
+            </ion-col>
+          </ion-row>
+          <ion-row class="center">
+            <ion-col size="3" class="col-social">
+              <ion-button fill="clear" class="social-icon">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </ion-button>
+            </ion-col>
+            <ion-col size="3" class="col-social">
+              <ion-button fill="clear" class="social-icon">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </ion-button>
+            </ion-col>
+            <ion-col size="3" class="col-social">
+              <ion-button fill="clear" class="social-icon">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </ion-button>
+            </ion-col>
+            <ion-col size="3" class="col-social">
+              <ion-button fill="clear" class="social-icon">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+        <div class="imageTerbaru">
+          <img src="assets/img_footer.png" />
+        </div>
+        <ion-row>
+          <ion-col size="auto">
+            <ion-label>Contact Us</ion-label>
+          </ion-col>
+          <ion-col size="auto">
+            <ion-label>Privacy Policy</ion-label>
+          </ion-col>
+          <ion-col size="auto">
+            <ion-label>Terms & Conditions</ion-label>
+            </ion-col>
+        </ion-row>
+        <ion-label>Copyright © 2025 GoTravel. All Rights Reserved.</ion-label>
+      </div>
+    </ion-footer>
+
+  </div>
+
+</ion-content>
+
+
